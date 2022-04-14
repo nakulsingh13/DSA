@@ -1,16 +1,17 @@
 #include<stdio.h>
 #include<conio.h>
+#include<stdlib.h>
 
 typedef struct lklist{
 int info;
 struct lklist*next;
 }node;
-void main()
+
+int main()
 {
 int ch;
 node *head=NULL,*temp,*ptr;
 int data;
-clrscr();
 while(1)
 {
 printf("***MENU***\n");
@@ -114,4 +115,5 @@ default:printf("wrong choice");
 	break;
 }
 }
+return 0;
 }
