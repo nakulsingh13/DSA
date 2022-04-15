@@ -96,7 +96,7 @@ case 5: printf("Enter the element after which you want to insert\n");
 
 	if(ptr==NULL)
 	{
-	   printf("Element not found");
+	   printf("Element not found ");
 	}
 	else
 	{

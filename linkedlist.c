@@ -19,7 +19,7 @@ printf("enter the choice\n");
 scanf("%d",&ch);
 switch(ch)
 {
-case 1:printf("enter the data\n");
+case 1:printf("enter the data \n");
 	scanf("%d",&data);
 	temp=(node*)malloc(sizeof(node));
 	temp->info=data;
