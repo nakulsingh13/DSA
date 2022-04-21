@@ -14,7 +14,7 @@ int data;
 while(1)
 {
 printf("***MENU***\n");
-printf("1. insert at beg\n2. Traversing\n 3. insert at end\n 4. searching\n5. exit\n");
+printf(" 1. insert at beg \n2. Traversing \n 3. insert at end\n 4. searching\n5. exit\n");
 printf("enter the choice\n");
 scanf("%d",&ch);
 switch(ch)
