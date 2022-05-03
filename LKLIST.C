@@ -14,7 +14,7 @@ node *head=NULL,*temp,*ptr;
 int data;
 while(1)
 {
-printf("***MENU***\n");
+printf("\n***MENU***\n");
 printf("1. insert at beg\n2. Traversing\n 3. insert at end\n 4. searching\n5. insert after element\n6.exit\n");
 printf("enter the choice\n");
 scanf("%d",&ch);
@@ -39,7 +39,7 @@ case 2:printf("traversing\n");
        temp=head;
        while(temp!=NULL)
        {
-       printf("%d",temp->info);
+       printf("%d ",temp->info);
        temp=temp->next;
        }
        break;
