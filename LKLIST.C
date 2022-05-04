@@ -33,7 +33,7 @@ case 1: printf("enter the data\n");
 	temp->next=NULL;
 	}
 	head=temp;
-	printf("node inserted successful");
+	printf("node inserted successfully");
 	break;
 case 2:printf("traversing\n");
        temp=head;
