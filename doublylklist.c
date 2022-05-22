@@ -28,6 +28,30 @@ void main(){
     createEmptylist(&head, &tail);
 
     while(1){
-        
+        printf("****MENU****\n");
+        printf("1. Insert At Beginning\n");
+        printf("2. Insert At End\n");
+        printf("3. Insert After Element\n");
+        printf("4. Insert Before Element\n");
+        printf("5. Traverse in order\n");
+        printf("6. Traverse in reverse order\n");
+        printf("7. Delete from beginning\n");
+        printf("8. Delete from End\n");
+        printf("9. Delete After Element\n");
+        printf("10. Delete Before Element\n");
+        printf("11. Exit\n");
+        printf("Enter your choice\n");
+        scanf("%d",&choice);
+
+        switch(choice){
+            case 1: printf("Enter element:");
+                    scanf("%d",&element);
+                    insertAtBeginning( &head, &tail, element);
+                    break;
+            case 2: printf("Enter element:");
+                    scanf("%d",&element);
+                    insertAtEnd( &head, &tail, element);        
+        }
+
     }
 }
